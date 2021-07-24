@@ -203,7 +203,7 @@ public class AccountDao {
         String to = email;
 
         // Sender's email ID needs to be mentioned
-        String from = "appchateproject@gmail.com";
+        String from = "yourEmail";
 
         // Assuming you are sending email from through gmails smtp
         String host = "smtp.gmail.com";
@@ -281,7 +281,7 @@ public class AccountDao {
         String to = email;
 
         // Sender's email ID needs to be mentioned
-        String from = "appchateproject@gmail.com";
+        String from = "yourEmail";
 
         // Assuming you are sending email from through gmails smtp
         String host = "smtp.gmail.com";
