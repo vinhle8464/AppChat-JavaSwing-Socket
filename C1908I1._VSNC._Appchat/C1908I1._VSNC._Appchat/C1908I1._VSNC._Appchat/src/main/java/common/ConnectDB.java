@@ -9,9 +9,9 @@ public class ConnectDB {
 	private static String url = "jdbc:sqlserver://";
 	private static String serverName = "localhost";
 	private static String portNumber = "1433";
-	private static String databaseName = "eprojectJava";
-	private static String username = "sa";
-	private static String password = "Lephatvinh4";
+	private static String databaseName = "yourDatabase";
+	private static String username = "yourUsername";
+	private static String password = "yourPassword";
 
 	public static String getConnectionUrl() {
 		return url + serverName + ":" + portNumber + "; databaseName=" + databaseName + "; user=" + username
