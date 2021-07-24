@@ -222,7 +222,7 @@ public class AccountDao {
 
             protected PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication("appchateproject@gmail.com", "Appchat12345");
+                return new PasswordAuthentication("yourEmail", "yourEmailPassword");
 
             }
 
@@ -300,7 +300,7 @@ public class AccountDao {
 
             protected PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication("appchateproject@gmail.com", "Appchat12345");
+                return new PasswordAuthentication("yourEmail", "yourEmailPassword");
 
             }
 
